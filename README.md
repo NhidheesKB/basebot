@@ -11,10 +11,10 @@ Built with the tools and technologies:
 ![JSON](https://img.shields.io/badge/-JSON-black?logo=json&style=flat-square)
 ![npm](https://img.shields.io/badge/-npm-CB3837?logo=npm&style=flat-square)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat-square)
-![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?logo=vue.js&style=flat-square)
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&style=flat-square)
-![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=vite&style=flat-square)
-![OpenAI](https://img.shields.io/badge/-OpenAI-412991?logo=openai&style=flat-square)
+![Vue.js](https://img.shields.io/badge/Vue%20js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+![GeminiAI](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
 ![Axios](https://img.shields.io/badge/-Axios-5A29E4?logo=axios&style=flat-square)
 
 ---
