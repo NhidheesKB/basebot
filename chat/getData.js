@@ -3,6 +3,7 @@ import { geminiai } from "../config/geminiConfig.js";
 export const fetchData = async (db, query) => {
   try {
     const data = await db.raw(query);
+    console.log("fetch",data)
     const textresponse = await geminiai.models.generateContent({
       model: "gemini-2.5-flash-lite",
       contents: {
@@ -19,6 +20,7 @@ export const fetchData = async (db, query) => {
       The database rows are: ${JSON.stringify(data)}`,
       },
     });
+    console.log("textres",textresponse.text)
     return textresponse.text;
   } catch (error) {}
 };
