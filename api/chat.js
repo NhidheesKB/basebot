@@ -22,7 +22,9 @@ export default async function handler(req, res) {
     const schema = JSON.stringify(await inspector.columnInfo());
     const chatprompt = myprompt(schema);
     const response = (await generateQuery(chatprompt, message)).text;
+    console.log("response",response)
     const prased = JSON.parse(stringData(response, "{", "}"));
+    console.log("prased",prased)
     const query = prased.query;
     const aimessage = prased.message;
     if (!!aimessage) return res.status(200).json({ aimessage });
