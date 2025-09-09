@@ -27,6 +27,7 @@ export default async function handler(req, res) {
     const aimessage = prased.message;
     if (!!aimessage) return res.status(200).json({ aimessage });
     const data = await fetchData(db, query);
+    console.log("data",data)
     const start = data.indexOf("message") - 1;
     const tabledData = JSON.parse(stringData(data, "[", "]"));
     const tablemessage = data.slice(start)?.split('"')[3];
