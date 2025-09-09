@@ -33,5 +33,6 @@ export default async function handler(req, res) {
     return res.status(200).json({ tabledData, message: tablemessage });
   } catch (error) {
     console.log("chaterror", error);
+    res.status(400).json({success:false})
   }
 }
